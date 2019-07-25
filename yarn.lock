@@ -1866,7 +1866,7 @@ create-hmac@^1.1.0, create-hmac@^1.1.2, create-hmac@^1.1.4:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
-cross-env@^5.1:
+cross-env@^5.2.0:
   version "5.2.0"
   resolved "https://registry.npm.taobao.org/cross-env/download/cross-env-5.2.0.tgz#6ecd4c015d5773e614039ee529076669b9d126f2"
   integrity sha1-bs1MAV1Xc+YUA57lKQdmabnRJvI=
@@ -6631,6 +6631,11 @@ webpack-dev-server@^3.1.14:
     webpack-dev-middleware "^3.7.0"
     webpack-log "^2.0.0"
     yargs "12.0.5"
+
+webpack-laravel-mix-manifest@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.npm.taobao.org/webpack-laravel-mix-manifest/download/webpack-laravel-mix-manifest-2.0.1.tgz#bb85ba8987ad17dd83f43685c75ddebdc4b81324"
+  integrity sha1-u4W6iYetF92D9DaFx13evcS4EyQ=
 
 webpack-log@^2.0.0:
   version "2.0.0"
