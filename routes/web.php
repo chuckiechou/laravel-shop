@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', 'PagesController@root')->name('root');
+Route::get('/', 'PagesController@root')->name('root')->middleware('verified');
 Route::get('/index', 'PagesController@index')->name('index');
-Auth::routes();
+Auth::routes(['verify' => true]);
 
